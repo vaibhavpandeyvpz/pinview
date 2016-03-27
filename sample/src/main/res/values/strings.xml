@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PinView</string>
+    <string name="message_entered" formatted="false">You entered \'%s\'</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pv_keypad_cancel">Cancel</string>
+    <string name="pv_keypad_clear">Clear</string>
+    <string name="pv_keypad_digit_1">1</string>
+    <string name="pv_keypad_digit_2">2</string>
+    <string name="pv_keypad_digit_3">3</string>
+    <string name="pv_keypad_digit_4">4</string>
+    <string name="pv_keypad_digit_5">5</string>
+    <string name="pv_keypad_digit_6">6</string>
+    <string name="pv_keypad_digit_7">7</string>
+    <string name="pv_keypad_digit_8">8</string>
+    <string name="pv_keypad_digit_9">9</string>
+    <string name="pv_keypad_digit_0">0</string>
+</resources>

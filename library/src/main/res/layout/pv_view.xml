@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    app:columnCount="3"
+    app:orientation="vertical"
+    app:rowCount="5">
+
+    <EditText android:id="@+id/pv_pin_text"
+        app:layout_column="0"
+        app:layout_columnSpan="3"
+        app:layout_gravity="fill_horizontal"
+        app:layout_row="0"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="textPassword"
+        android:gravity="center" />
+
+    <Button android:id="@+id/pv_keypad_digit_1"
+        android:text="@string/pv_keypad_digit_1"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <Button android:id="@+id/pv_keypad_digit_2"
+        android:text="@string/pv_keypad_digit_2"
+        app:layout_column="1"
+        app:layout_row="1" />
+
+    <Button android:id="@+id/pv_keypad_digit_3"
+        android:text="@string/pv_keypad_digit_3"
+        app:layout_column="2"
+        app:layout_row="1" />
+
+    <Button android:id="@+id/pv_keypad_digit_4"
+        android:text="@string/pv_keypad_digit_4"
+        app:layout_column="0"
+        app:layout_row="2" />
+
+    <Button android:id="@+id/pv_keypad_digit_5"
+        android:text="@string/pv_keypad_digit_5"
+        app:layout_column="1"
+        app:layout_row="2" />
+
+    <Button android:id="@+id/pv_keypad_digit_6"
+        android:text="@string/pv_keypad_digit_6"
+        app:layout_column="2"
+        app:layout_row="2" />
+
+    <Button android:id="@+id/pv_keypad_digit_7"
+        android:text="@string/pv_keypad_digit_7"
+        app:layout_column="0"
+        app:layout_row="3" />
+
+    <Button android:id="@+id/pv_keypad_digit_8"
+        android:text="@string/pv_keypad_digit_8"
+        app:layout_column="1"
+        app:layout_row="3" />
+
+    <Button android:id="@+id/pv_keypad_digit_9"
+        android:text="@string/pv_keypad_digit_9"
+        app:layout_column="2"
+        app:layout_row="3" />
+
+    <Button android:id="@+id/pv_keypad_cancel"
+        android:text="@string/pv_keypad_cancel"
+        app:layout_column="0"
+        app:layout_row="4" />
+
+    <Button android:id="@+id/pv_keypad_digit_0"
+        android:text="@string/pv_keypad_digit_0"
+        app:layout_column="1"
+        app:layout_row="4" />
+
+    <Button android:id="@+id/pv_keypad_clear"
+        android:text="@string/pv_keypad_clear"
+        app:layout_column="2"
+        app:layout_row="4" />
+
+</android.support.v7.widget.GridLayout>
