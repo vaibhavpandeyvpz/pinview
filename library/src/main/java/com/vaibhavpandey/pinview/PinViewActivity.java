@@ -6,6 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 abstract public class PinViewActivity extends AppCompatActivity implements PinView.PinViewListener {
 
     @Override
+    public void onBackPressed() {
+        onPinCancelled();
+    }
+
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.pv_activity);
@@ -16,6 +21,7 @@ abstract public class PinViewActivity extends AppCompatActivity implements PinVi
 
     @Override
     public void onPinCancelled() {
+        setResult(RESULT_CANCELED);
         finish();
     }
 }
